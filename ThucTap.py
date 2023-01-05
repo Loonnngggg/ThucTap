@@ -78,7 +78,7 @@ class NetworkTopo(Topo):
                           ip=iph4,
                           defaultRoute='via ' + ipr2_in[:-3])
 
-        # Thêm link host-switch
+        # Thêm link giữa host-switch
         self.addLink(h1, s1)
         self.addLink(h2, s1)
         self.addLink(h3, s2)
