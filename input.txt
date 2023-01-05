@@ -1,0 +1,15 @@
+- Topo mạng: 2 router, 2 switch, 4 host
+- Địa chỉ mạng 1 và mạng 2:
+10.0.0.0/24
+10.1.0.0/24
+- Địa chỉ router 1 và 2 tương ứng trong mạng 1 và 2:
+10.0.0.1/24
+10.1.0.1/24
+- Mạng 1 kết nối với mạng 2 qua mạng 10.100.0.0/24. Địa chỉ của 2 router trong mạng này:
+10.100.0.1/24
+10.100.0.2/24
+- Địa chỉ của các host (host 1 và 2 trong mạng 1, host 3 và 4 trong mạng 2):
+10.0.0.251/24
+10.0.0.252/24
+10.1.0.253/24
+10.1.0.254/24
