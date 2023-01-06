@@ -17,12 +17,14 @@ ipnetwork1 = data[2]    # Địa chỉ ip mạng 1
 ipnetwork2 = data[3]    # Địa chỉ ip mạng 2
 ipr1_in = data[5]       # Địa chỉ ip router 1 trong mạng 1
 ipr2_in = data[6]       # Địa chỉ ip router 2 trong mạng 2
-ipr1_out = data[8]      # Địa chỉ ip router 1 ngoài mạng
-ipr2_out = data[10]     # Địa chỉ ip router 2 ngoài mạng
+ipr1_out = data[8]      # Địa chỉ ip router 1 ngoài mạng (trong 10.100.0.0)
+ipr2_out = data[10]     # Địa chỉ ip router 2 ngoài mạng (trong 10.100.0.0)
 iph1 = data[11]         # Địa chỉ ip host 1
 iph2 = data[12]         # Địa chỉ ip host 2
 iph3 = data[13]         # Địa chỉ ip host 3
 iph4 = data[14]         # Địa chỉ ip host 4
+
+####
 
 
 class LinuxRouter(Node):
